@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routine</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script defer src="./JavaScript/script.js"></script>
+</head>
+
+<body>
+    <div class="week">
+        <div class="days days1">
+            <p>Monday</p>
+        </div>
+        <div class="days days2">
+            <p>Tuesday</p>
+        </div>
+        <div class="days days3">
+            <p>Wednesday</p>
+        </div>
+        <div class="days days4">
+            <p>Thursday</p>
+        </div>
+        <div class="days days5">
+            <p>Friday</p>
+        </div>
+        <div class="days days6">
+            <p>Saturday</p>
+        </div>
+        <div class="days days7">
+            <p>Sunday</p>
+        </div>
+    </div>
+    <section class="tasks">
+        <div class="coluomn div1">
+            <h1 class="task__h1">Today You Should Do:</h1>
+            <h1 class="type__oftask">WRITING!!!</h1>
+            <h1 class="type__oftask">READING!!!</h1>
+            <h1 class="type__oftask">LISTENING!!!</h1>
+            <h1 class="type__oftask">SPEAKING!!!</h1>
+            <div class="taskdaily">
+                <!--TODO <ul>
+                    <div class="con">
+                        <h3>Task 1</h3>
+                        <input class="check mishka__check" type="checkbox">
+                    </div>
+                    <div class="con">
+                        <h3>Task 2</h3>
+                        <input class="check mishka__check" type="checkbox">
+                    </div>
+                    <button class="btn mishka" type="submit">Confirm</button>
+                </ul> -->
+            </div>
+        </div>
+        <!-- * -->
+        <div class="coluomn div2">
+            <!-- ?Day1 -->
+            <div class="weeks weeks1 hide__days">
+                <!-- ! -->
+                <h1 class="task__h1">Monday's tasks are:</h1>   
+                <p>Writing Day!</p>
+                <div class="con">
+                    <h3>Task 1</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <!-- ! -->
+                <div class="con">
+                    <h3>Task 2</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <button id="done" class="btn mishka" type="submit">Already Done</button>
+            </div>
+            <!-- todoDay2 -->
+            <div id="2" class="weeks weeks2 hide__days">
+                <!-- ! -->
+                <h1 class="task__h1">Tuesday's tasks are:</h1>
+                <p>Listening Day!</p>
+                <div class="con">
+                    <h3>Full Mock & Analsys</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <!-- ! -->
+                <div class="con">
+                    <h3>Podcast with Typecript</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <button id="done" class="btn mishka" type="submit">Already Done</button>
+            </div>
+            <!-- todoDay3 -->
+            <div class="weeks weeks3 hide__days ">
+                <!-- ! -->
+                <h1 class="task__h1">Wednesday's tasks are:</h1>
+                <p>Reading Day!</p>
+                <div class="con">
+                    <h3>Full mock & Analsys</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <!-- ! -->
+                <div class="con">
+                    <h3>Article and Vocabulary</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <button id="done" class="btn mishka" type="submit">Already Done</button>
+            </div>
+            <!-- todoDay4 -->
+            <div class="weeks weeks4 hide__days">
+                <!-- ! -->
+                <h1 class="task__h1">Thursday's tasks are:</h1>
+                <p>I should write a writing</p>
+                <div class="con">
+                    <h3>Task 1</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <!-- ! -->
+                <div class="con">
+                    <h3>Task 2</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <button id="done" class="btn mishka" type="submit">Already Done</button>
+            </div>
+            <!-- todoDay5 -->
+            <div class="weeks weeks5 hide__days">
+                <!-- ! -->
+                <h1 class="task__h1">Friday's tasks are:</h1>
+                <p>Spaeking Day!</p>
+                <div class="con">
+                    <h3>1 topic form all 3parts</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <!-- ! -->
+                <div class="con">
+                    <h3>Vocabulary with Collocations</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <button id="done" class="btn mishka" type="submit">Already Done</button>
+            </div>
+            <!-- todoDay6 -->
+            <div class="weeks weeks6 hide__days">
+                <!-- ! -->
+                <h1 class="task__h1">Saturday's tasks are:</h1>
+                <p>Grammar form Murphy</p>
+                <div class="con">
+                    <h3>Shuold Finish At least 1Unit</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <!-- ! -->
+                <div class="con">
+                    <h3>Wacth one Keith bideo form YouTube</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <button id="done" class="btn mishka" type="submit">Already Done</button>
+            </div>
+            <!-- todoDay7 -->
+            <div class="weeks weeks7 hide__days">
+                <!-- ! -->
+                <h1 class="task__h1">Sunday's tasks are:</h1>
+                <p>I should write a writing</p>
+                <div class="con">
+                    <h3>Mock Day!</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <!-- ! -->
+                <div class="con">
+                    <h3>Group Working</h3>
+                    <input class="check mishka__check" type="checkbox">
+                </div>
+                <button id="done" class="btn mishka" type="submit">Already Done</button>
+            </div>
+        </div>
+        
+    </section>
+</body>
+
+</html>
